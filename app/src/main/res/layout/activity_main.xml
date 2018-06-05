@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#ECEFF1"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/todo"
+                android:scaleType="centerCrop"
+                android:src="@drawable/golgappe" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/architects_daughter"
+                android:text="@string/golgappe_walaz"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_56sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3">
+
+            <TextView
+                android:id="@+id/first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_16dp"
+                android:drawablePadding="@dimen/_16dp"
+                android:linksClickable="true"
+                android:autoLink="map"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:drawableStart="@drawable/ic_map"
+                android:fontFamily="@font/cherry_cream_soda"
+                android:text="@string/jwahar_lal_nehru_marg_nd_block_malviya_nagar_njaipur_rajasthan_302022"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <TextView
+                android:id="@+id/second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/first"
+                android:drawablePadding="@dimen/_16dp"
+                android:drawableStart="@drawable/ic_clock"
+                android:fontFamily="@font/cherry_cream_soda"
+                android:padding="@dimen/_16dp"
+                android:text="@string/available_24_x_7"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sp" />
+
+            <TextView
+                android:id="@+id/third"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/second"
+                android:padding="@dimen/_16dp"
+                android:autoLink="web"
+                android:drawableStart="@drawable/ic_delivery"
+                android:drawablePadding="@dimen/_16dp"
+                android:linksClickable="true"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:fontFamily="@font/cherry_cream_soda"
+                android:text="@string/order_at_www_golgappewalaz_com"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sp" />
+            <TextView
+                android:id="@+id/fourth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/third"
+                android:padding="@dimen/_16dp"
+                android:autoLink="phone"
+                android:drawableStart="@drawable/ic_call"
+                android:drawablePadding="@dimen/_16dp"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:linksClickable="true"
+                android:fontFamily="@font/cherry_cream_soda"
+                android:text="@string/_91_9647718064"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sp" />
+            <TextView
+                android:id="@+id/fifth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fourth"
+                android:padding="@dimen/_16dp"
+                android:autoLink="email"
+                android:linksClickable="true"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:drawableStart="@drawable/ic_email"
+                android:drawablePadding="@dimen/_16dp"
+                android:fontFamily="@font/cherry_cream_soda"
+                android:text="@string/customercare_golgappewalaz_com"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fifth"
+                android:padding="@dimen/_16dp"
+                android:drawableStart="@drawable/ic_about"
+                android:drawablePadding="@dimen/_16dp"
+                android:fontFamily="@font/cherry_cream_soda"
+                android:text="@string/why_rush_to_gol_gappa_stores_when_the_store_is_at_your_doorstep_get_home_delivered_gol_gappe_and_fast_foods_in_just_a_one_click_fill_your_hunger_with_yummy_and_delicious_fast_foods"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
